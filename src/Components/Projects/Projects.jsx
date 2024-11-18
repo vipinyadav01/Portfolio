@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import bannerImg from "../../assets/photo-C8q0KQHG.webp";
+import image4 from "../../assets/demo.png";
 import image1 from "../../assets/zero.png";
 import image2 from "../../assets/bg2.png";
 import image3 from "../../assets/admin.png";
@@ -10,22 +10,33 @@ const Projects = () => {
     {
       title: "Full-Stack E-commerce Website",
       main: "A full-stack e-commerce platform built with HTML, CSS, JS, ExpressJS, NodeJS, and MongoDB.",
-      imageUrl: bannerImg,
+      imageUrl: image4,
+      link: "https://zero-fashion.onrender.com",
+      sourceCodeLink:
+        "https://github.com/vipinyadav01/Zero-Fashion-FullStack.git",
     },
     {
-      title: "MERN-Stack Project With Admin Panel",
+      title: "MERN-Stack E-commerce Project with all functionality",
       main: "A MERN stack application featuring an admin panel for management and integration of RazorPay and Cloudinary.",
       imageUrl: image1,
+      link: "https://zerofashion.vercel.app",
+      sourceCodeLink:
+        "https://github.com/vipinyadav01/ZERO--FASHION--MERN/tree/main/frontend",
     },
     {
       title: "Portfolio with React And Tailwind",
       main: "A personal portfolio showcasing projects, built with React and Tailwind CSS.",
       imageUrl: image2,
+      link: "https://vipinyadav01.vercel.app",
+      sourceCodeLink: "https://github.com/vipinyadav01/Portfolio.git",
     },
     {
       title: "Admin Panel for Ecom Website",
       main: "An intuitive admin panel designed for managing e-commerce operations, including product listings, order tracking, and user management.",
       imageUrl: image3,
+      link: "https://zeroadmin.vercel.app",
+      sourceCodeLink:
+        "https://github.com/vipinyadav01/ZERO--FASHION--MERN/tree/main/admin",
     },
   ];
 
@@ -54,6 +65,8 @@ const Projects = () => {
                 title={project.title}
                 main={project.main}
                 imageUrl={project.imageUrl}
+                link={project.link}
+                sourceCodeLink={project.sourceCodeLink}
               />
             </div>
           ))}
