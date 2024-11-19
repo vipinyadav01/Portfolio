@@ -35,10 +35,10 @@ const About = () => {
                 />
                 <div>
                   <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
-                    FullStack Developer
+                    MERN-Stack Developer
                   </h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Specialized in MERN stack development, I create efficient
+                    I have intermediate knowledge of MERN stack development, I create efficient
                     and user-friendly web applications with a focus on modern
                     design and scalability.
                   </p>

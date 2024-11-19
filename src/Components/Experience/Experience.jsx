@@ -56,15 +56,15 @@ const Experience = () => {
     { icon: FaJs, color: "#F7DF1E", name: "JavaScript" },
     { icon: FaFigma, color: "#F24E1E", name: "Figma" },
     { icon: SiMongodb, color: "#47A248", name: "MongoDB" },
-    { icon: SiRedis, color: "#FF4438", name: "Redis" },
     { icon: FaNode, color: "#8CC84B", name: "Node.js" },
     { icon: FaGitSquare, color: "#F05032", name: "Git" },
-    { icon: FaGit, color: "#F05032", name: "Git" },
     { icon: FaGithub, color: "#ffffff", name: "GitHub" },
     { icon: SiPostman, color: "#FF6C37", name: "Postman" },
     { icon: SiVercel, color: "#ffffff", name: "Vercel" },
-    { icon: FaCode, color: "#00BFFF", name: "Coding" },
     { icon: FaJava, color: "#00BFFF", name: "Java" },
+    { icon: FaNode, color: "#68A063", name: "Express.js" },
+    { icon: FaCss3, color: "#06B6D4", name: "Tailwind CSS" },
+    { icon: FaCss3, color: "#563D7C", name: "Bootstrap" },
   ];
 
   const experiences = [
@@ -74,8 +74,8 @@ const Experience = () => {
       title: "Coding Blocks",
       date: "May 2024 - July 2024",
       points: [
-        "Completed full-stack internship at Coding Blocks, specializing in React",
-        "MERN-stack implementation of Ecommerce website with admin panel",
+        "Completed full-stack internship at Coding Blocks, with intermediate knowledge in MERN stack.",
+        "MERN-stack implementation of Ecommerce website with admin panel.",
       ],
     },
     {

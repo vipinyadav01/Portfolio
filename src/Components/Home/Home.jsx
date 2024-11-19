@@ -61,9 +61,11 @@ const Home = () => {
               </h1>
 
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Full-stack developer specializing in MERN stack. Passionate
-                about creating innovative web solutions with expertise in
-                JavaScript and modern web technologies.
+                I’m a Full-Stack Developer proficient in the MERN stack
+                (MongoDB, Express.js, React, Node.js). I’m passionate about
+                creating dynamic, user-friendly web applications and
+                continuously enhancing my skills with modern JavaScript
+                technologies.
               </p>
             </div>
 
@@ -91,7 +93,7 @@ const Home = () => {
 
             {/* Tech Stack Pills */}
             <div className="flex flex-wrap gap-3 pt-6">
-              {["MERN", "JavaScript", "React.js", "Node.js", "MongoDB"].map(
+              {["MERN-STACK", "HTML", "CSS", "JavaScript"].map(
                 (tech, index) => (
                   <span
                     key={index}
